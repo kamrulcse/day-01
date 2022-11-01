@@ -14,3 +14,19 @@ let teacherObj={
 // console.log(teacherObj['address']['vill'])  //for nested object
 
 
+//Set property--------------
+teacherObj.Designation='Teacher ICT'
+console.log(teacherObj);
+
+//Keys gula chai--------
+console.log(Object.keys(teacherObj));   //array akare ouput dey
+
+//value gula chai---------
+console.log(Object.values(teacherObj)); 
+
+
+//iterate using for in loop----------
+for(propertyName in teacherObj){
+    console.log(propertyName);   //Property Name
+    console.log(teacherObj[propertyName]);   //Value
+}
